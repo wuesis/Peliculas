@@ -1,0 +1,37 @@
+ .Container {
+    display: grid;
+    grid-template:
+       "CounterTitle"
+       "CounterMenu"
+       "CounterManual";
+    justify-content: center;
+    color: white;
+    margin-top: 300px;
+ }
+
+ .CounterTitle {
+    grid-area: CounterTitle;
+    text-align: center;
+ }
+
+ .CounterMenu {
+    grid-area: CounterMenu;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 15px;
+ }
+
+
+ .CounterStyle {
+    font-weight: bold;
+ }
+
+ .ButtonsCounterMenu {
+    width: 7vw;
+ }
+
+ .CounterManual{
+   grid-area: CounterManual;
+   justify-content: center;
+ }
