@@ -6,15 +6,13 @@ export function Contador() {
     const [state, setState] = useState(0);
 
     useEffect(() => {
-        state > 0 ? document.body.style.backgroundColor = "green" : state == 0 ? document.body.style.backgroundColor = "gray" : document.body.style.backgroundColor = "red";  
+        state > 0 ? document.body.style.backgroundColor = "green" : state == 0 ? document.body.style.backgroundColor = "gray" : document.body.style.backgroundColor = "red";
     });
 
-   function gg(){
-
-    const value: number =Number(document.getElementById("Manual").value);
-
-    return setState(value)
-   }
+    function gg() {
+        const value: number = Number(document.getElementById("Manual").value);
+        return setState(value);
+    }
 
 
     return <>
