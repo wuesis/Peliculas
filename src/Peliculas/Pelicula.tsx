@@ -1,4 +1,4 @@
-import { PeliculaModel } from "./Pelicula.model"
+import PeliculaModel from "./Pelicula.model"
 import css from "./Pelicula.module.css"
 
 export default function Pelicula(props: PeliculaProps) {

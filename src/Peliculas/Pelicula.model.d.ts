@@ -1,4 +1,4 @@
-export interface PeliculaModel{
+export default interface PeliculaModel{
     ID: number;
     Titulo: string;
     Arte: string;
