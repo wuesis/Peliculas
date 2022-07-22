@@ -1,4 +1,4 @@
-import PeliculaModel from "./Pelicula.model"
+import { PeliculaModel } from "./Pelicula.model"
 import css from "./Pelicula.module.css"
 
 export default function Pelicula(props: PeliculaProps) {
@@ -7,9 +7,9 @@ export default function Pelicula(props: PeliculaProps) {
         <>
             <div className={css.Contenedor}>
                 <div className={css.Cabecera}>
-                 
-                        <h2 className={css.Valoracion}>{props.Pelicula.Valoracion}/5</h2>
-                     
+
+                    <h2 className={css.Valoracion}>{props.Pelicula.Valoracion}/5</h2>
+
                     <img className={css.Arte} alt="ArteDelContenidoAudioVisual" src={props.Pelicula.Arte} />
                 </div>
 
